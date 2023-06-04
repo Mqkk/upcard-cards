@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "Алексей Смирнов",
+})
+
+<body class="page__body">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-home-yellow-blue.html', {
+      "img": "img/strict/avatar",
+      "img-width": "395",
+      "img-height": "424",
+      "img-alt": "Алексей Смирнов",
+      "name": "Алексей Смирнов С.",
+      "specialization": "Программист на Python",
+      "tel-href": "+79293468581",
+      "tel-text": "+7 929 346-85-81",
+      "mail-href": "aleg-smirnov@gmail.com",
+      "mail-text": "aleg-smirnov@gmail.com",
+      "site-link-href": "devupteam.com",
+      "site-link-text": "devupteam.com",
+      "date-text": "31.01.2001",
+      "location-text": "г.Барнаул, ул.Путиловская, дом 20г",
+      "logo-img": "logo.svg",
+      "logo-width": "",
+      "logo-height": "",
+      "logo-alt": "",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+<section class="calendar calendar-dark-blue">
+  <div class="calendar__container container">
+    <div class="calendar__content" data-aos="zoom-in">
+      <h1 class="calendar__title section-title">Календарь записи</h1>
+      <!-- calendar__list--windows активирует окна в итемах -->
+      <!-- calendar__item--close активирует значение занято -->
+      <!-- calendar__item--partially-closed активирует частичную занятость - сделан первый итем -->
+      <ul class="list-reset calendar__list calendar__list--windows">
+        <li class="calendar__item calendar-item calendar-item--partially-closed">
+          <div class="calendar-item__left">
+            <div class="calendar-item__value">1</div>
+            <div class="calendar-item__day">пн</div>
+          </div>
+          <div class="calendar-item__right">
+            <div class="calendar-item__meaning">Свободно</div>
+            <div class="calendar-item__meaning calendar-item__meaning--close">
+              Занято</div>
+            <div class="calendar-item__meaning calendar-item__meaning--partially-closed">
+              Ч/Занято</div>
+          </div>
+          <div class="calendar-item__windows calendar-windows">
+            <h3 class="calendar-windows__title">Окна:</h3>
+            <ul class="list-reset calendar-windows__list">
+              <li class="calendar-windows__item">09:00</li>
+              <li class="calendar-windows__item calendar-windows__item--close">
+                10:00</li>
+              <li class="calendar-windows__item">11:00</li>
+              <li class="calendar-windows__item">12:00</li>
+            </ul>
+          </div>
+        </li>
+        <li class="calendar__item calendar-item">
+          <div class="calendar-item__left">
+            <div class="calendar-item__value">2</div>
+            <div class="calendar-item__day">вт</div>
+          </div>
+          <div class="calendar-item__right">
+            <div class="calendar-item__meaning">Свободно</div>
+            <div class="calendar-item__meaning calendar-item__meaning--close">
+              Занято</div>
+          </div>
+          <div class="calendar-item__windows calendar-windows">
+            <h3 class="calendar-windows__title">Окна:</h3>
+            <ul class="list-reset calendar-windows__list">
+              <li class="calendar-windows__item">09:00</li>
+              <li class="calendar-windows__item">
+                10:00</li>
+              <li class="calendar-windows__item">11:00</li>
+              <li class="calendar-windows__item">12:00</li>
+            </ul>
+          </div>
+        </li>
+        <li class="calendar__item calendar-item calendar-item--close">
+          <div class="calendar-item__left">
+            <div class="calendar-item__value">3</div>
+            <div class="calendar-item__day">ср</div>
+          </div>
+          <div class="calendar-item__right">
+            <div class="calendar-item__meaning">Свободно</div>
+            <div class="calendar-item__meaning calendar-item__meaning--close">
+              Занято</div>
+          </div>
+          <div class="calendar-item__windows calendar-windows">
+            <h3 class="calendar-windows__title">Окна:</h3>
+            <ul class="list-reset calendar-windows__list">
+              <li class="calendar-windows__item calendar-windows__item--close">09:00
+              </li>
+              <li class="calendar-windows__item calendar-windows__item--close">
+                10:00</li>
+              <li class="calendar-windows__item calendar-windows__item--close">11:00
+              </li>
+              <li class="calendar-windows__item calendar-windows__item--close">12:00
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="calendar__bottom calendar-bottom">
+      <ul class="list-reset calendar-bottom__list">
+        <li class="calendar-bottom__item">
+          <button class="btn-reset btn calendar-bottom__btn" onclick="window.history.back()">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Назад</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
