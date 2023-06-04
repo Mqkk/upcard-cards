@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "Ирина Карстен",
+})
+
+<body class="page__body">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-home-medicine.html', {
+      "img": "img/medicine/avatar",
+      "img-width": "382",
+      "img-height": "382",
+      "img-alt": "Ирина Карстен Ю.",
+      "name": "Ирина Карстен Ю.",
+      "specialization": "Стоматолог",
+      "tel-href": "+79039128085",
+      "tel-text": "+7 903 912-80-85",
+      "mail-href": "iri-car@gmail.com",
+      "mail-text": "iri-car@gmail.com",
+      "site-link-href": "",
+      "site-link-text": "",
+      "date-text": "29.03.2001",
+      "location-text": "г.Барнаул, ул.Юрина, дом 32",
+      "logo": "img/medicine/logo",
+      "logo-width": "100",
+      "logo-height": "30",
+      "logo-alt": "toochmed",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

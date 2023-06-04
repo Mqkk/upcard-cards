@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "Анастасия Битюцких",
+})
+
+<body class="page__body">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-home-classic.html', {
+      "img": "img/classic/avatar",
+      "img-width": "200",
+      "img-height": "200",
+      "img-alt": "Анастасия Б.",
+      "name": "Анастасия Б.",
+      "specialization": "Тату-мастер из брн",
+      "tel-href": "+79132383643 ",
+      "tel-text": "+7 913 238-36-43 ",
+      "mail-href": "anastasiabit@gmail.com",
+      "mail-text": "anastasiabit@gmail.com",
+      "site-link-href": "",
+      "site-link-text": "",
+      "date-text": "14.02.2001",
+      "location-text": "г. Барнаул, пр. Красноармейский, 38",
+      "logo": "",
+      "logo-width": "",
+      "logo-height": "",
+      "logo-alt": "",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

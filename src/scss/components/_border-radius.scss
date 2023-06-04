@@ -1,0 +1,39 @@
+.br {
+  &-5 {
+    border-radius: 5px;
+  }
+
+  &-10 {
+    border-radius: 10px;
+  }
+
+  &-20 {
+    border-radius: 20px;
+  }
+
+  &-48 {
+    border-radius: 48px;
+  }
+}
+
+.border {
+  &-accent-orange {
+    border: 1px solid var(--accent-orange-color);
+  }
+
+  &-light {
+    border: 1px solid var(--seashell-color);
+  }
+
+  &-dark {
+    border: 1px solid var(--dark-color);
+  }
+
+  &-green {
+    border: 1px solid var(--light-green-color);
+  }
+
+  &-silver {
+    border: 1px solid var(--silver-color);
+  }
+}

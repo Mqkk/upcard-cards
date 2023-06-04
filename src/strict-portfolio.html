@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "Портфолио | Алексей Смирнов",
+})
+
+<body class="page__body">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-portfolio-strict.html', {
+      "title": "Алексея Смирнова",
+      "img1": "img/plug",
+      "img1-width": "290",
+      "img1-height": "290",
+      "img1-alt": "plug",
+      "item1-title": "Пример из портфолио",
+      "item1-date": "17.02.2023",
+      "item1-descr": "Пример текста описывающий итем из данного портфолио. <br> Небольшой длинны.",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

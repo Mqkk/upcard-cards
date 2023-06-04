@@ -1,0 +1,37 @@
+<section class="portfolio portfolio-medicine">
+  <div class="portfolio__container container">
+    <div class="portfolio__content" data-aos="zoom-in">
+      <h1 class="portfolio__title section-title">Портфолио @title</h1>
+      <ul class="list-reset portfolio__list">
+        <!-- item -->
+        <li class="portfolio__item portfolio-item">
+          <div class="portfolio-item__img">
+            <picture>
+              <source srcset="@img1.avif" type="image/avif">
+              <source srcset="@img1.webp" type="image/webp">
+              <img loading="lazy" src="@img1.png" class="image br-10" width="@img1-width" height="@img1-height"
+                alt="@img1-alt">
+            </picture>
+          </div>
+          <div class="portfolio-item__info">
+            <h2 class="portfolio-item__title">@item1-title</h2>
+            <div class="portfolio-item__date">@item1-date</div>
+            <p class="portfolio-item__descr">
+              @item1-descr
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="portfolio__bottom portfolio-bottom">
+      <ul class="list-reset portfolio-bottom__list">
+        <li class="portfolio-bottom__item">
+          <button class="btn-reset btn home-btns__btn" onclick="window.history.back()">
+            <i class="fa-solid fa-arrow-left"></i>
+            <span>Назад</span>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

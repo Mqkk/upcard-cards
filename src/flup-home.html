@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "Роман Никифоров",
+})
+
+<body class="page__body bg-alto">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-home-flup.html', {
+      "img": "img/flup/avatar",
+      "img-width": "385",
+      "img-height": "385",
+      "img-alt": "mascot",
+      "name": "Роман Никифоров ",
+      "specialization": "Ведущий менеджер",
+      "tel-href": "+7 (923) 003-58-03",
+      "tel-text": "+7 (923) 003-58-03",
+      "mail-href": "devupteam@gmail.com",
+      "mail-text": "devupteam@gmail.com",
+      "site-link-href": "href://devupteam.com",
+      "site-link-text": "devupteam.com",
+      "date-text": "09.04.1999",
+      "location-text": "г. Мурманск, ул. Ленина, дом 39",
+      "logo": "img/flup/logo",
+      "logo-width": "130",
+      "logo-height": "30",
+      "logo-alt": "flup",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

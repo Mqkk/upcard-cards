@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "О компании | Алексей Смирнов",
+})
+
+<body class="page__body">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-company-strict.html', {
+      "img-logo": "img/strict/logo.svg",
+      "img-width": "250",
+      "img-height": "100",
+      "img-alt": "DevUp",
+      "name": "Компания DevUp",
+      "specialization": "Разработка веб-продукта",
+      "tel-href": "+79235622979",
+      "tel-text": "+7 (923) 562 29-79",
+      "mail-href": "devupteam@gmail.com",
+      "mail-text": "devupteam@gmail.com",
+      "site-link-href": "devupteam.com",
+      "site-link-text": "devupteam.com",
+      "date-text": "2021",
+      "location-text": "Не имеется",
+      "logo-img": "logo.svg",
+      "logo-width": "",
+      "logo-height": "",
+      "logo-alt": "",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

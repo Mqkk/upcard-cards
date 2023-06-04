@@ -1,0 +1,19 @@
+// база
+@import "vars";
+@import "mixins";
+@import "fonts";
+@import "settings";
+
+// небольшие компоненты
+@import "./components/btn";
+@import "./components/text-styles";
+@import "./components/border-radius";
+@import "./components/box-shadow";
+@import "./components/background";
+@import "./components/loader";
+
+// подключения компонентов страницы
+@import "./components/header";
+@import "./components/section-home";
+@import "./components/section-portfolio";
+@import "./components/section-calendar";

@@ -1,0 +1,105 @@
+/* stylelint-disable color-function-notation */
+/* stylelint-disable order/order */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--accent-orange-color);
+  border-radius: var(--br-5);
+  padding: 10px;
+  min-width: 140px;
+  min-height: 40px;
+  transition: all 0.1s ease-in-out;
+  gap: 10px;
+
+  i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    font-size: 15px;
+  }
+
+  &:hover {
+    color: var(--light-color);
+    background-color: var(--orange-color);
+  }
+
+  &--border {
+    &-accent-orange {
+      border: 1px solid var(--accent-orange-color);
+    }
+  }
+
+  &--long {
+    padding: 14px 20px;
+  }
+
+  &--classic {
+    // border-bottom: 1px solid var(--dark-color);
+    border: 1px solid var(--dark-color);
+    border-radius: 48px;
+    padding: 8px 10px;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 10%);
+
+    &:hover {
+      color: var(--light-color);
+      background-color: var(--dark-color);
+    }
+  }
+
+  &--max {
+    padding: 16px;
+    width: 100%;
+  }
+
+  &--big {
+    padding: 16px;
+  }
+
+  &--ultra-big {
+    padding: 20px;
+
+    @include tablet {
+      padding: 16px;
+    }
+  }
+
+  &:hover {
+    &.btn--border-accent-orange {
+      border: 1px solid var(--orange-color);
+      color: var(--orange-color);
+    }
+
+    &.btn--border-accent-orange.bg-orange-accent {
+      color: var(--light-color);
+      background-color: var(--orange-color);
+    }
+
+    &.bg-dark {
+      color: var(--light-color);
+      background-color: var(--gray-color);
+    }
+
+    &.bg-linear-green {
+      box-shadow: none;
+      scale: 1.02;
+    }
+
+    &.border-green {
+      border: 1px solid var(--dark-green-color);
+      box-shadow: var(--shadow-med);
+      color: var(--dark-green-color);
+    }
+
+    &.border-dark {
+      color: var(--light-color);
+      background-color: var(--dark-color);
+    }
+
+    &.bg-candlelight {
+      box-shadow: var(--shadow-med);
+    }
+  }
+}

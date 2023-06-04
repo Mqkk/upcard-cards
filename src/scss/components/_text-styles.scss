@@ -1,0 +1,169 @@
+/* font-weight */
+.fw {
+  &-300 {
+    font-weight: 300;
+  }
+
+  &-400 {
+    font-weight: 400;
+  }
+
+  &-500 {
+    font-weight: 500;
+  }
+
+  &-700 {
+    font-weight: 700;
+  }
+}
+
+/* font-size */
+.fz {
+  &-14 {
+    font-size: 14px;
+  }
+
+  &-16 {
+    font-size: 16px;
+
+    @include mobile {
+      font-size: 14px;
+    }
+  }
+
+  &-18 {
+    font-size: 18px;
+
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+
+  &-20 {
+    font-size: 20px;
+
+    @include mobile {
+      font-size: 16px;
+    }
+  }
+
+  &-24 {
+    font-size: 24px;
+
+    @include mobile {
+      font-size: 18px;
+    }
+  }
+
+  &-32 {
+    font-size: 32px;
+
+    @include mobile {
+      font-size: 22px;
+    }
+  }
+
+  &-36 {
+    font-size: 36px;
+
+    @include mobile {
+      font-size: 26px;
+    }
+  }
+}
+
+/* letter-spacing */
+.ls {
+  &-0-02 {
+    letter-spacing: 0.02em;
+  }
+
+  &-0-03 {
+    letter-spacing: 0.03em;
+  }
+
+  &-0-055 {
+    letter-spacing: 0.055em;
+  }
+
+  &-minus-0-04 {
+    letter-spacing: -0.04em;
+  }
+
+  &-0-195 {
+    letter-spacing: 0.195em;
+  }
+}
+
+/* text-transform */
+.uppercase {
+  text-transform: uppercase;
+}
+
+/* color */
+.color {
+  &-dark {
+    color: var(--dark-color);
+  }
+
+  &-light {
+    color: var(--light-color);
+  }
+
+  &-gray {
+    color: var(--gray-color);
+  }
+
+  &-accent-orange {
+    color: var(--accent-orange-color);
+  }
+
+  &-light-green {
+    color: var(--light-green-color);
+  }
+
+  &-dark-green {
+    color: var(--dark-green-color);
+  }
+
+  &-mine-shaft {
+    color: var(--mine-shaft-color);
+  }
+
+  &-dove-gray {
+    color: var(--dove-gray-color);
+  }
+}
+
+/* line-height */
+.lh {
+  &-130 {
+    line-height: 130%;
+  }
+
+  &-140 {
+    line-height: 140%;
+  }
+
+  &-150 {
+    line-height: 150%;
+  }
+}
+
+.ff {
+  &-open-sans {
+    font-family: var(--font-family--open-sans);
+  }
+
+  &-raleway {
+    font-family: var(--font-family--raleway);
+  }
+
+  &-ubuntu {
+    font-family: var(--font-family--ubuntu);
+  }
+
+  &-exo-2 {
+    font-family: var(--font-family--exo-2);
+  }
+}

@@ -1,0 +1,50 @@
+/* stylelint-disable color-function-notation */
+// для использования sass-переменных - удалить root
+// colors
+:root {
+  // base
+  --font-family--raleway: "Raleway", sans-serif;
+  --font-family--montserrat: "Montserrat", sans-serif;
+  --font-family--ubuntu: "Ubuntu", sans-serif;
+  --font-family--open-sans: "Open Sans", sans-serif;
+  --font-family--exo-2: "Exo 2", sans-serif;
+  --content-width: 1024px;
+  --container-offset: 10px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+
+  // colors
+  --light-color: #fff;
+  --accent-orange-color: #ff5c00;
+  --orange-color: #ff8743;
+  --dark-color: #1e1e1e;
+  --gray-color: #565656;
+  --linear-green-color: linear-gradient(180deg, #00d8be 0%, #008979 100%);
+  --light-green-color: #008979;
+  --dark-green-color: #005949;
+  --alto-color: #dfdfdf;
+  --dark-alto-color: #dfdfdf;
+  --silver-color: #c6c6c6;
+  --dove-gray-color: #696969;
+  --mine-shaft-color: #3c3c3c;
+  --candlelight-color: #ffda17;
+  --fair-pink-color: #ffe8e8;
+  --red-color: #f00;
+  --dark-red-color: #590000;
+  --red-linear-color: linear-gradient(180deg, #d80000 0%, #890000 100%);
+  --seashell-color: #f1f1f1;
+  --alto-dark-color: #d3d3d3;
+
+  // shadow
+  --shadow-med: 0 2px 7px rgba(0, 0, 0, 20%);
+  --shadow-min: 0 0 3px rgba(0, 0, 0, 20%);
+  --shadow-light: 0 1px 3px rgba(0, 0, 0, 30%);
+  --shadow-btn--flup: 0 0 2px rgba(0, 0, 0, 20%);
+  --shadow-btn--medicine: 0 2px 2px #014038;
+  --inner-shadow--flup: inset 0 2px 4px rgba(0, 0, 0, 10%);
+  --shadow-logo: 0 1px 2px rgba(0, 0, 0, 10%);
+
+  // border
+  --br-5: 5px;
+  --br-20: 20px;
+  --br-10: 10px;
+}

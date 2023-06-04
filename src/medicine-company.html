@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html', {
+"title": "О компании | Ирина кастен",
+})
+
+<body class="page__body">
+  <div class="site-container">
+    <!-- @include('partials/header.html') -->
+    <main class="main">
+      @include('partials/section-company-medicine.html', {
+      "img-logo": "img/medicine/logo.svg",
+      "img-width": "250",
+      "img-height": "100",
+      "img-alt": "ToochMed",
+      "name": "Компания ТoochMed",
+      "specialization": "Стоматологическая книлика",
+      "tel-href": "+79039128085",
+      "tel-text": "+7 903 912-80-85",
+      "mail-href": "iri-car@gmail.com",
+      "mail-text": "iri-car@gmail.com",
+      "site-link-href": "",
+      "site-link-text": "",
+      "date-text": "2021",
+      "location-text": "г.Барнаул, ул.Юрина, дом 3",
+      "logo-img": "",
+      "logo-width": "",
+      "logo-height": "",
+      "logo-alt": "",
+      })
+    </main>
+
+    <!-- @include('partials/footer.html') -->
+    <!-- @include('html/h1.html') пример include -->
+  </div>
+</body>
+
+</html>

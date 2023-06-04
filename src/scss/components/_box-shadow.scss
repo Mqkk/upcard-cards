@@ -1,0 +1,25 @@
+.shadow {
+  &-min {
+    box-shadow: var(--shadow-min);
+  }
+
+  &-light {
+    box-shadow: var(--shadow-light);
+  }
+
+  &-med {
+    box-shadow: var(--shadow-med);
+  }
+
+  &-green {
+    box-shadow: 0 2px 2px #014038;
+  }
+
+  &-flup {
+    box-shadow: var(--inner-shadow--flup);
+  }
+
+  &-flup-btn {
+    box-shadow: var(--shadow-btn--flup);
+  }
+}

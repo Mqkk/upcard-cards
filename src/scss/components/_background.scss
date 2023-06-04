@@ -1,0 +1,29 @@
+.bg {
+  &-orange-accent {
+    background-color: var(--accent-orange-color);
+  }
+
+  &-linear-green {
+    background: var(--linear-green-color);
+  }
+
+  &-light {
+    background-color: var(--light-color);
+  }
+
+  &-dark {
+    background-color: var(--dark-color);
+  }
+
+  &-alto {
+    background-color: var(--alto-color);
+  }
+
+  &-alto-dark {
+    background-color: var(--alto-dark-color);
+  }
+
+  &-candlelight {
+    background-color: var(--candlelight-color);
+  }
+}
